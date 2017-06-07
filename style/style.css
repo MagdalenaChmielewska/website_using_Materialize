@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Lobster&subset=cyrillic,latin-ext,vietnamese");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote {
+  quotes: none; }
+  blockquote:before, blockquote:after {
+    content: '';
+    content: none; }
+
+q {
+  quotes: none; }
+  q:before, q:after {
+    content: '';
+    content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-size: 1.65rem;
+  line-height: auto; }
+
+.main-page header {
+  background: url(../images/316H.png) fixed no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  margin: 32px 35px 0;
+  height: 90vh;
+  text-align: center;
+  opacity: 0.7; }
+  .main-page header .page-title {
+    color: transparent;
+    height: 0;
+    text-indent: -1000000px; }
+  .main-page header .page-header {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    opacity: 1;
+    font-size: 10rem; }
+    .main-page header .page-header h2 {
+      color: #D5E2D6;
+      font-family: "Lobster", cursive;
+      text-shadow: #105357 1px 1px, #105357 0px 0px, #105357 1px 1px, #105357 2px 2px, #105357 3px 3px, #105357 4px 4px, #105357 5px 5px, #105357 6px 6px, #105357 7px 7px, #105357 8px 8px, #105357 9px 9px, #105357 10px 10px, #105357 11px 11px, #105357 12px 12px, #105357 13px 13px, #105357 14px 14px, #105357 15px 15px, #105357 16px 16px, #105357 17px 17px, #105357 18px 18px, #105357 19px 19px, #105357 20px 20px, #105357 21px 21px, #105357 22px 22px, #105357 23px 23px, #105357 24px 24px, #105357 25px 25px, #105357 26px 26px, #105357 27px 27px, #105357 28px 28px, #105357 29px 29px; }
+  .main-page header .arrow {
+    height: 27px;
+    cursor: pointer; }
+.main-page article {
+  margin-top: 5%; }
+  .main-page article .month {
+    color: #105357;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 5px; }
+  .main-page article .card-reveal span {
+    padding-bottom: 15px; }
+  .main-page article section ul li {
+    padding: 10px; }
+
+.page-footer {
+  background-color: #105357;
+  height: 5vh; }
+
+/*# sourceMappingURL=style.css.map */
