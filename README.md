@@ -1,6 +1,6 @@
 # website_using_Materialize  
 
-This project was created to learn [Materialize](http://materializecss.com), a CSS Framework based on Material Design.  
+This project was created to learn [Materialize](http://materializecss.com), a modern responsive front-end framework based on Material Design. 
 All photos are coming from [Gratisography](http://www.gratisography.com/).  
 
 ## Online  
